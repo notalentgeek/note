@@ -1,0 +1,3 @@
+* “If you are distressed by anything external, the pain is not due to the thing itself, but to your estimate of it; and thus you have the power to revoke at any moment.”.
+* Same notion from Buddha, "You can't control what happens in life but you can control your reaction.".
+* Reddit thread, [https://www.reddit.com/r/GetMotivated/comments/5v17il/tool_marcus_aurelius_said_if_you_are_distressed/](https://www.reddit.com/r/GetMotivated/comments/5v17il/tool_marcus_aurelius_said_if_you_are_distressed/).

@@ -1,0 +1,1 @@
+* You can just copy (or even mass copy files/folders) then paste it in a text processing program as the absolute path directly.

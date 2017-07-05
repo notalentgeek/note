@@ -1,0 +1,2 @@
+* Python PyAudio solution to `Exception overflow`, [http://stackoverflow.com/questions/10733903/pyaudio-input-overflowed](http://stackoverflow.com/questions/10733903/pyaudio-input-overflowed).
+* This error, usually happen in Raspberry PI, change the method to stream from microphone in PyAudio by using these codes instead, `data = stream.read(chunk, exception_on_overflow = False)`.

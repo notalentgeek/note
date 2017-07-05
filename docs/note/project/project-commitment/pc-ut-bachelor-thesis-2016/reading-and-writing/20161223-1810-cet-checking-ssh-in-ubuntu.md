@@ -1,0 +1,3 @@
+* Checking SSH keys in Ubuntu is in `~/.ssh` directory so go there with `cd ~/.ssh`.
+* After the current working directory is in there go `sudo nano id_rsa.pub` every file that has .pub extension is the public SSH key.
+* Using `ls -al ~/.ssh` to check any SSH keys present. I know this from this link, [https://help.github.com/articles/checking-for-existing-ssh-keys/](https://help.github.com/articles/checking-for-existing-ssh-keys/).

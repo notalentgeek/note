@@ -1,0 +1,2 @@
+* How to get average in LibreOffice Calc, `=AVERAGE()`.
+* Source, [https://ask.libreoffice.org/en/question/48752/how-do-i-average-rows/](https://ask.libreoffice.org/en/question/48752/how-do-i-average-rows/).

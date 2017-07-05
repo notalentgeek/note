@@ -1,0 +1,2 @@
+* Taken from this StackOverflow discussion, [http://stackoverflow.com/questions/3320406/how-to-check-if-a-path-is-absolute-path-or-relative-path-in-cross-platform-way-w](http://stackoverflow.com/questions/3320406/how-to-check-if-a-path-is-absolute-path-or-relative-path-in-cross-platform-way-w).
+* The Python codes are `os.path.isabs(absolute_path)`. Will either return `True` or `False`.

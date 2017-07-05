@@ -1,0 +1,2 @@
+* From this project I learned my lesson that every `window.xxx()` function cannot be stacked.
+* For example, if I have 2 `window.onload(function () {});` only the later (or the earlier?) mentioned will be executed. To sum up, please keep only one of this callback..

@@ -1,0 +1,3 @@
+* Aubio installation for Python in Ubuntu Linux and other mainstream operating system as well, [https://aubio.org/download](https://aubio.org/download).
+* If the Linux distro is using repository from Ubuntu then you can use these commands, `sudo apt-get install aubio-tools libaubio-dev libaubio-doc`.
+* To install Aubio Python library use this command from `pip` package manager, `python -m pip install aubio`.

@@ -1,0 +1,4 @@
+* In my case, there was a point of which my Ubuntu MATE failed to install update of `ttf-mscorefonts-installer`.
+* Usually it can be done with `sudo apt-get install ttf-mscorefonts-installer`. But for some reason the link to the binary blob was missing (404). I guess that is SourceForge faults.
+* But nevertheless, if you experience this update error as well you can just down the .deb installer in here, [https://packages.debian.org/jessie/all/ttf-mscorefonts-installer/download](https://packages.debian.org/jessie/all/ttf-mscorefonts-installer/download).
+* By installing the .deb file, there was no update error in my Ubuntu MATE anymore.

@@ -1,0 +1,2 @@
+* In Windows `python -m SimpleHTTPServer 8000` is now `python -m http.server 8000`.
+* Link, [http://blog.technotesdesk.com/python-exe-no-module-named-simplehttpserver-how-to-run-it-on-windows/](http://blog.technotesdesk.com/python-exe-no-module-named-simplehttpserver-how-to-run-it-on-windows/)..
