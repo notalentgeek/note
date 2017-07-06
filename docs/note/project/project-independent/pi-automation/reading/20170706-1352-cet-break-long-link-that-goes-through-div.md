@@ -1,0 +1,2 @@
+* To prevent a very long link to go across `<div>` there is `word-wrap: break-word;` for CSS to automatically put the long link in the new line.
+* I got this reference from this StackOverflow article, [https://stackoverflow.com/questions/12196885/text-flowing-out-of-div](https://stackoverflow.com/questions/12196885/text-flowing-out-of-div).

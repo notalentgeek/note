@@ -1,0 +1,2 @@
+* In JavaScript, I can remove the first element of list with `shift()`.
+* Source, [https://stackoverflow.com/questions/38096687/remove-first-element-from-array-and-return-the-the-array-minus-the-first-element](https://stackoverflow.com/questions/38096687/remove-first-element-from-array-and-return-the-the-array-minus-the-first-element).

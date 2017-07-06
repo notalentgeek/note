@@ -1,0 +1,3 @@
+* Adding rounded corners in `<div>` is done using `border-radius` property.
+* For example, `border-radius:1px;` means rounded corners for all 4 corners with 1 pixel radius.
+* Another example, `border-radius:1px 2px 3px 4px;` means 1 pixel radius rounded corner for top - right, 2 pixels radius rounded corner for bottom - right, 3 pixels radius rounded corner for bottom - left, and 4 pixels radius rounded corner for top - left.

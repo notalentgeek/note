@@ -1,0 +1,1 @@
+* If there is an error listed as `... Resources must be listed in the web_accessible_resources manifest key in order to be loaded by pages outside the extension.'.` the reason is usually because there are conflict with Chrome extension installed.
