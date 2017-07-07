@@ -196,7 +196,7 @@
         
     </p>
     
-      <a href="../../../../../../projects/">projects</a>
+      <a href="../../../../../../cv/">cv</a>
     
 
   </li>
@@ -33265,10 +33265,12 @@
 
     $("#flex_main_1_toc").metisMenu();
 
-    var search = document.location.href.split("/").pop().split("?")[0].split(".")[0]
-    if(search == "search"){
-      document.getElementById("title_note").innerHTML = "search results";
-    }
+    var home = document.location.href.split("/").pop();
+    var search = document.location.href.split("/").pop().split("?")[0].split(".")[0];
+    console.log(home);
+    console.log(search);
+    if(home == ""){ document.getElementById("title_note").innerHTML = "intro..."; }
+    else if(search == "search"){ document.getElementById("title_note").innerHTML = "search results"; }
     else{
       var title_note = document.location.href.split("/");
       if (title_note[title_note.length - 1] == ""){ title_note = title_note[title_note.length - 2]; }
