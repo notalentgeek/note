@@ -12,18 +12,18 @@
 
 [./20170706-1352-cet-host-static-website-in-digital-ocean-2.png](./20170706-1352-cet-host-static-website-in-digital-ocean-2.png)
 
-![./20170706-1352-cet-host-static-website-in-digital-ocean-4.png](./20170706-1352-cet-host-static-website-in-digital-ocean-4.png)
+![./20170706-1352-cet-host-static-website-in-digital-ocean-3.png](./20170706-1352-cet-host-static-website-in-digital-ocean-3.png)
 
-[./20170706-1352-cet-host-static-website-in-digital-ocean-5.png](./20170706-1352-cet-host-static-website-in-digital-ocean-5.png)
+[./20170706-1352-cet-host-static-website-in-digital-ocean-4.png](./20170706-1352-cet-host-static-website-in-digital-ocean-4.png)
+
+![./20170706-1352-cet-host-static-website-in-digital-ocean-5.png](./20170706-1352-cet-host-static-website-in-digital-ocean-5.png)
+
+[./20170706-1352-cet-host-static-website-in-digital-ocean-6.png](./20170706-1352-cet-host-static-website-in-digital-ocean-6.png)
 
 ![./20170706-1352-cet-host-static-website-in-digital-ocean-7.png](./20170706-1352-cet-host-static-website-in-digital-ocean-7.png)
 
 [./20170706-1352-cet-host-static-website-in-digital-ocean-8.png](./20170706-1352-cet-host-static-website-in-digital-ocean-8.png)
 
-![./20170706-1352-cet-host-static-website-in-digital-ocean-10.png](./20170706-1352-cet-host-static-website-in-digital-ocean-10.png)
+![./20170706-1352-cet-host-static-website-in-digital-ocean-9.png](./20170706-1352-cet-host-static-website-in-digital-ocean-9.png)
 
-[./20170706-1352-cet-host-static-website-in-digital-ocean-11.png](./20170706-1352-cet-host-static-website-in-digital-ocean-11.png)
-
-![./20170706-1352-cet-host-static-website-in-digital-ocean-13.png](./20170706-1352-cet-host-static-website-in-digital-ocean-13.png)
-
-[./20170706-1352-cet-host-static-website-in-digital-ocean-14.png](./20170706-1352-cet-host-static-website-in-digital-ocean-14.png)
+[./20170706-1352-cet-host-static-website-in-digital-ocean-10.png](./20170706-1352-cet-host-static-website-in-digital-ocean-10.png)
