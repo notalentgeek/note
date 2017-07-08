@@ -13,6 +13,9 @@
     * Classical Mechanics and Mathematics (Calculus A and Linear Algebra)
 
 ## Previous Projects and Working Experiences
+
+---
+
 ### 2016 - 2017 Universiteit Twente - Pedge
 * Description: A project to create a wearable Internet of Things (IoT) device as a solution to [Humanyze's](https://www.humanyze.com/) Sociometric Badge.
 * Responsibilities:
@@ -22,21 +25,23 @@
         * Computer vision with OpenCV
 
 #### Media
-##### Document
+##### PED-Document
 * [Pedge final presentation](./cv-1.pdf)
 
-##### Videos
+##### PED-Videos
 * [Laser cutting case 1](https://www.youtube.com/watch?v=HgtK1A347G4)
 * [Laser cutting case 2](https://www.youtube.com/watch?v=GVnE3BMt5fM)
 * [Laser cutting case 3](https://www.youtube.com/watch?v=JSE0mpDtFmU)
 * [Testing self-made infrared transceiver](https://www.youtube.com/watch?v=RopUh846FEE)
-
+---
 ### 2016 [PT. Toyota Astra Motor](http://www.toyota.astra.co.id/) - Internship
 * Description: A project to help company presence in IoT and their after-service offerings.
 * Responsibilities:
     * Full-stack web developer with MEAN
     * Hardware developer with OBD
     * Mobile developer with Xamarin
+
+---
 
 ### 2014 - 2016 [Waag Society](http://waag.org/nl) - meSch
 * Description: A project to make museum simulator and haiku generator based on visitor's visit in museum. A part of bigger meSch project to create better interaction in museums across Europe.
@@ -45,13 +50,13 @@
     * Software developer with HaXe
 
 #### Media
-##### Videos
+##### WAG-Videos
 * [Museum simulation application prototype with HaXe (haiku generation around 01:30)](https://www.youtube.com/watch?v=oY_UnakcBkg)
 * [Museum simulation application prototype with HaXe + the physical audio guide](https://www.youtube.com/watch?v=JKbpvM5s710)
 * [Museum simulation application prototype with Processing](https://www.youtube.com/watch?v=LoN9U4eQVxM)
 * [Museum simulation application prototype with Unity](https://www.youtube.com/watch?v=nqSJifVzT_8)
 
-##### Photos
+##### WAG-Photos
 ![./cv-2.png](./cv-2.png)
 
 ![./cv-3.png](./cv-3.png)
@@ -68,16 +73,18 @@
 
 * Inside case prototype 2 (Arduino MEGA, VS1053 Audio Player, and RFID reader)
 
+---
+
 ### 2013 - 2015 [Light Challenge](http://www.lightchallenge.eu/) 2013 - DeModusol Detachable Lightning Solution
 * Description: Six months street lighting design competition for student from the entire The Netherlands. Each team assigned with local municipality and working together with established companies to make a good and usable street lightning.
 * Responsibilities:
     * Hardware developer (case and electronics)
 
 #### Media
-##### Video
+##### LIG-Video
 * [Team video + light demonstration](https://www.youtube.com/watch?v=r3SY3vCJUjc)
 
-##### Photos
+##### LIG-Photos
 ![./cv-7.png](./cv-7.png)
 
 ![./cv-8.png](./cv-8.png)
@@ -86,15 +93,17 @@
 
 * Photos of finished DeModusol during final day
 
+---
+
 ### 2013 [De Spullenmannen](http://www.spullenmannen.nl/) - DeMeter Gardening Stake
 * Description: A project to make a garden monitoring tool that connect to an online database.
 * Responsibility: Hardware programmer with custom Arduino
 
 #### Media
-##### Videos
+##### SPU-Videos
 * [Promo video](https://www.youtube.com/watch?v=Qdh-COc13xw)
 
-##### Photos
+##### SPU-Photos
 ![./cv-10.png](./cv-10.png)
 
 * Blender model for DeMeter case
@@ -167,12 +176,14 @@
 
 * Serial port for programming and Ethernet
 
+---
+
 ### 2012 [GOGBOT](http://gogbot.nl/) - R.A.T Art Installation
 * Description: Originally from university project. Robot in a Tube (R.A.T) displayed the extend of "human" after several man-made organ transplants.
 * Responsibility: Hardware programmer with Arduino
 
 #### Media
-##### Photos
+##### BOT-Photos
 ![./cv-40.png](./cv-40.png)
 
 * Promo poster
@@ -187,6 +198,8 @@
 
 * During GOGBOT 2012.
 
+---
+
 ### 2012 Universiteit Twente - SMoodly the Mood Bracelet
 * Description: University project to make a responsive and technologically enhanced environment. SMoodly is a wearable technology with galvanic skin measurement to detect mood, then adjust environment accordingly.
 * Responsibilities:
@@ -194,10 +207,10 @@
     * Hardware developer with Arduino (DMX controller)
 
 #### Media
-##### Video
+##### MOD-Video
 * [Demonstration animation](https://www.youtube.com/watch?v=GOOP35DjQdE)
 
-#### Photos
+#### MOD-Photos
 
 ![./cv-45.png](./cv-45.png)
 
@@ -245,9 +258,7 @@
 
 * SMoodly during showoff day
 
-![./cv-67.png](./cv-67.png)
-
-* Laser cut SMoodly biscuit
+---
 
 ## Awards and Participations
 * 2013 Participant at Light Challenge 2013 working together with the Municipality of Almelo
