@@ -1,16 +1,16 @@
 ## Personal Informations
 * Name: Mikael Pratama Kristyawicaksono
-* Email: mikael.pratama@gmail.com
-* Phone: +31 6111 32615
-* GitHub: [notalentgeek](https://github.com/notalentgeek)
-* YouTube: [notalentgeek](https://www.youtube.com/user/ne0komodo)
-* LinkedIn: [https://www.linkedin.com/in/mikael-pratama-kristyawicaksono-56919648/](https://www.linkedin.com/in/mikael-pratama-kristyawicaksono-56919648/)
 * Place, Date of Birth: Jakarta, 29 January 1993
 * Latest Education: Universiteit Twente, The Netherlands
 * Major: Creative Technology
 * Minor:
     * Classic and Contemporary Philosophy
     * Classical Mechanics and Mathematics (Calculus A and Linear Algebra)
+* Email: mikael.pratama@gmail.com
+* GitHub: [https://github.com/notalentgeek](https://github.com/notalentgeek)
+* LinkedIn: [https://www.linkedin.com/in/mikael-pratama-kristyawicaksono-56919648/](https://www.linkedin.com/in/mikael-pratama-kristyawicaksono-56919648/)
+* Website: [https://notalentgeek.github.io/note/](https://notalentgeek.github.io/note/)
+* YouTube: [https://www.youtube.com/user/ne0komodo](https://www.youtube.com/user/ne0komodo)
 
 ## Previous Projects and Working Experiences
 
@@ -21,7 +21,7 @@
 * Responsibilities:
     * Full-stack web developer with Bootstrap, Flask, RethinkDB, and SocketIO.
         * Web computer vision with TrackingJS
-    * Hardware web developer with Raspberry PI
+    * Hardware developer with Raspberry PI
         * Computer vision with OpenCV
 
 #### Media
@@ -38,7 +38,7 @@
 * Description: A project to help company presence in IoT and their after-service offerings.
 * Responsibilities:
     * Full-stack web developer with MEAN
-    * Hardware developer with OBD
+    * Hardware developer with Arduino and OBD
     * Mobile developer with Xamarin
 
 ---
@@ -78,7 +78,7 @@
 ### 2013 - 2015 [Light Challenge](http://www.lightchallenge.eu/) 2013 - DeModusol Detachable Lightning Solution
 * Description: Six months street lighting design competition for student from the entire The Netherlands. Each team assigned with local municipality and working together with established companies to make a good and usable street lightning.
 * Responsibilities:
-    * Hardware developer (case and electronics)
+    * Hardware developer for case and electronics
 
 #### Media
 ##### LIG-Video
@@ -97,10 +97,10 @@
 
 ### 2013 [De Spullenmannen](http://www.spullenmannen.nl/) - DeMeter Gardening Stake
 * Description: A project to make a garden monitoring tool that connect to an online database.
-* Responsibility: Hardware programmer with custom Arduino
+* Responsibility: Hardware developer with custom-made Arduino
 
 #### Media
-##### SPU-Videos
+##### SPU-Video
 * [Promo video](https://www.youtube.com/watch?v=Qdh-COc13xw)
 
 ##### SPU-Photos
@@ -180,7 +180,7 @@
 
 ### 2012 [GOGBOT](http://gogbot.nl/) - R.A.T Art Installation
 * Description: Originally from university project. Robot in a Tube (R.A.T) displayed the extend of "human" after several man-made organ transplants.
-* Responsibility: Hardware programmer with Arduino
+* Responsibility: Hardware developer with Arduino
 
 #### Media
 ##### BOT-Photos
@@ -289,10 +289,10 @@
 * C++ with Ogre3D, OpenFrameworks, and SDL
 * GML (GameMaker Studio)
 * HaXe
-* Java with Android, LibGDX, and Swing
+* Java with Android, LibGDX, and Processing
 * JavaScript with NodeJS, P5JS, and Phaser
 * LaTex
-* Python with Flask
+* Python with Flask and Raspberry PI
 
 ## Softwares
 * Adobe Flash ([The Earth Archive](https://www.youtube.com/watch?v=fqpWaC313Ms))
@@ -306,7 +306,7 @@
 * Libre/Microsoft Office
 * Various note taking softwares
 
-## Organizational And Social Skills:
+## Organizational And Social Skills
 Ability to adapt and learn fast. Have been working in project with most cultural background exceptionally well. Able to work solo, in small project group (< 7 people), or in rather large project group (< 20 people).
 
 ## Hobbies
