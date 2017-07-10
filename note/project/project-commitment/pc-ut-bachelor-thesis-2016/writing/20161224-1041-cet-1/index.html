@@ -171,31 +171,6 @@
         
     </p>
     
-      <a href="../../../../../../contacts/">contacts</a>
-    
-
-  </li>
-
-              
-                
-  <li >
-
-    
-    <!-- I need to use `<p style="display:none;">` here, because the MKDocs does
-    not use `do` extension of Jinja2. Ideally the syntax will be
-    `{% do title_data.update({ "mod":title_data.mod + " " + i }) %}` since
-    `{{ ... }}` will print the Jinja2 variable into the HTML DOM element. But
-    MKDocs does not support `{% do ... %}` So, in order to update a dictionary,
-    I need to enclosed it in `{{ ... }}` but then I need to hide it from HTML DOM.
-    -->
-    
-    <p style="display:none;">
-      
-        
-          
-        
-    </p>
-    
       <a href="../../../../../../cv/">cv</a>
     
 
@@ -33177,20 +33152,20 @@
     var page = document.location.href.split("/");
     page.pop();
     page = page.pop();
-    console.log(page);
     var search = document.location.href.split("/").pop().split("?")[0].split(".")[0];
-    if(page == "contacts"){ document.getElementById("title_note").innerHTML = "contacts"; }
-    else if(page == "cv"){ document.getElementById("title_note").innerHTML = "cv"; }
+    if(page == "cv"){ document.getElementById("title_note").innerHTML = "cv"; }
     else if(search == "search"){ document.getElementById("title_note").innerHTML = "search results"; }
-    else if(home == ""){ document.getElementById("title_note").innerHTML = "intro..."; }
-    else{
-      var title_note = document.location.href.split("/");
-      if (title_note[title_note.length - 1] == ""){ title_note = title_note[title_note.length - 2]; }
-      else{ title_note = title_note[title_note.length - 1]; }
-      title_note = title_note.split("-");
-      title_note.shift(); title_note.shift(); title_note.shift();
-      title_note = title_note.toString().replace(/,/g, " ");
-      document.getElementById("title_note").innerHTML = title_note;
+    else if(home == ""){
+      if(document.location.href.split("/").includes("note")){
+        var title_note = document.location.href.split("/");
+        if (title_note[title_note.length - 1] == ""){ title_note = title_note[title_note.length - 2]; }
+        else{ title_note = title_note[title_note.length - 1]; }
+        title_note = title_note.split("-");
+        title_note.shift(); title_note.shift(); title_note.shift();
+        title_note = title_note.toString().replace(/,/g, " ");
+        document.getElementById("title_note").innerHTML = title_note;
+      }
+      else{ document.getElementById("title_note").innerHTML = "intro..."; }
     }
   </script>
 </body>

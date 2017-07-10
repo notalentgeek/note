@@ -171,31 +171,6 @@
         
     </p>
     
-      <a href="contacts/">contacts</a>
-    
-
-  </li>
-
-              
-                
-  <li >
-
-    
-    <!-- I need to use `<p style="display:none;">` here, because the MKDocs does
-    not use `do` extension of Jinja2. Ideally the syntax will be
-    `{% do title_data.update({ "mod":title_data.mod + " " + i }) %}` since
-    `{{ ... }}` will print the Jinja2 variable into the HTML DOM element. But
-    MKDocs does not support `{% do ... %}` So, in order to update a dictionary,
-    I need to enclosed it in `{{ ... }}` but then I need to hide it from HTML DOM.
-    -->
-    
-    <p style="display:none;">
-      
-        
-          
-        
-    </p>
-    
       <a href="cv/">cv</a>
     
 
@@ -33139,7 +33114,7 @@
 <p>Near in the end of my second year, my father gave me his 12 inches Asus S6F laptop. The laptop is still working until now (2017) and is still my best experience with any laptop I have ever used. With this laptop I started to take my notes digitally. The first web service I used to store my notes was <a href="https://www.scribd.com/">Scribd</a>. It was not a specific service for note per see, but you can store any amount of .pdf documents there. Although I am not using Scribd anymore, my high school notes has been seen ~20.000 times and I received occasional emails from teachers wanted to use my notes for their teaching materials.</p>
 <p><img alt="./index-2.png" src="./index-2.png" /></p>
 <p>I started using Evernote when I was in my second year in UT. I used the normal, free version until I realized I need more storage. Then, I decided to subscribe to its premium features. It was all good, with 1 GB additional memory to store higher resolution images and note scans. The struggle came when I started to used Linux more religiously. There is no Evernote desktop client for Linux. The only solution is either to use GeekNote (third party Evernote client) or use Evernote web application. I have no luck on setting up the former and the Evernote web application has less features than the desktop version. Around 2014, I looked up for alternative for Evernote.</p>
-<p>I was keen into open source software (keep in mind I am not that strict :D, I use commercial software as well), some Evernote alternatives I had used were Laverna and Paperworks. Both were still in development. Laverna is more flexible, because you can host it or use it offline as a standalone Atom based desktop application. Whereas, Paperworks (as far as I know) is strictly to be used as a hosted web application. There was still no comfort of using both of these, I still gradually moved back using Evernote.</p>
+<p>I was keen into open source software (I am not am not limiting myself to always use open source software :D, I use commercial software as well), some Evernote alternatives I had used were Laverna and Paperworks. Both were still in development. Laverna is more flexible, because you can host it or use it offline as a standalone Atom based desktop application. Whereas, Paperworks (as far as I know) is strictly to be used as a hosted web application. There was still no comfort of using both of these, I still gradually moved back using Evernote.</p>
 <p>After I used Laverna and Paperworks, I used traditional CMS like Drupal and Wordpress. Both are very good, solid, and industry staple CMSs. It was a pleasant experience when taking notes and when sharing notes to others, but it lacks the flexibility to be moved. It was not an easy job to convert, export, and import Wordpress posts into different computer or server. However, I have not yet tried Drupal setting with the portable SQLite database (SQLite seems to be the solution, because you have all your post in a single, stand-alone file).</p>
 <p>I found my home in <a href="https://www.tagspaces.org/">TagSpaces</a>. TagSpaces is an open source file management/tagging software. Albeit it is open source, it has some premium features that people can buy to use. Its main functionality comes as a file management with tagging. So, directory and file search can be done faster within the TagSpaces client. What drew me into TagSpaces was its file manager and the ability to make note as a single HTML or Markdown. The good part about the single HTML note is that regardless how many images attached in the HTML note, it will still be compiled into a single file. Although, the lag is apparent when HTML note with big image files is being opened.</p>
 <p>TagSpaces has a WebDAV version to be hosted in a server as well. With this, TagSpaces can be hosted like it is a CMS. However, I feel like the WebDAV version is not maintained (at least, the last time I saw it), with some tutorials are left dated.</p>
@@ -33172,20 +33147,20 @@
     var page = document.location.href.split("/");
     page.pop();
     page = page.pop();
-    console.log(page);
     var search = document.location.href.split("/").pop().split("?")[0].split(".")[0];
-    if(page == "contacts"){ document.getElementById("title_note").innerHTML = "contacts"; }
-    else if(page == "cv"){ document.getElementById("title_note").innerHTML = "cv"; }
+    if(page == "cv"){ document.getElementById("title_note").innerHTML = "cv"; }
     else if(search == "search"){ document.getElementById("title_note").innerHTML = "search results"; }
-    else if(home == ""){ document.getElementById("title_note").innerHTML = "intro..."; }
-    else{
-      var title_note = document.location.href.split("/");
-      if (title_note[title_note.length - 1] == ""){ title_note = title_note[title_note.length - 2]; }
-      else{ title_note = title_note[title_note.length - 1]; }
-      title_note = title_note.split("-");
-      title_note.shift(); title_note.shift(); title_note.shift();
-      title_note = title_note.toString().replace(/,/g, " ");
-      document.getElementById("title_note").innerHTML = title_note;
+    else if(home == ""){
+      if(document.location.href.split("/").includes("note")){
+        var title_note = document.location.href.split("/");
+        if (title_note[title_note.length - 1] == ""){ title_note = title_note[title_note.length - 2]; }
+        else{ title_note = title_note[title_note.length - 1]; }
+        title_note = title_note.split("-");
+        title_note.shift(); title_note.shift(); title_note.shift();
+        title_note = title_note.toString().replace(/,/g, " ");
+        document.getElementById("title_note").innerHTML = title_note;
+      }
+      else{ document.getElementById("title_note").innerHTML = "intro..."; }
     }
   </script>
 </body>
