@@ -33139,7 +33139,11 @@ sudo tar -C /usr/local --strip-components 1 -xzf node-v5.1.0-linux-x64.tar.gz
     if(page == "cv"){ document.getElementById("title_note").innerHTML = "cv"; }
     else if(search == "search"){ document.getElementById("title_note").innerHTML = "search results"; }
     else if(home == ""){
-      if(document.location.href.split("/").includes("note")){
+      if(
+        document.location.href.split("/").includes("list") ||
+        document.location.href.split("/").includes("project") ||
+        document.location.href.split("/").includes("reading")
+      ){
         var title_note = document.location.href.split("/");
         if (title_note[title_note.length - 1] == ""){ title_note = title_note[title_note.length - 2]; }
         else{ title_note = title_note[title_note.length - 1]; }
