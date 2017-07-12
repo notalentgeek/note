@@ -1,0 +1,2 @@
+* To know if an element is a part of an array, in JavaScript, this is the codes `array.includes(the_element);`.
+* The codes will return `true` if `the_element` is in the `array` and `false` if it is not in the array.

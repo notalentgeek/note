@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="202.7mm" height="232.7mm" viewBox = " 0 0 718.228937 824.528237" >
+<!-- Front--> 
+<g transform="translate(22.5000185, 22.5000185) " > 
+<polygon style="stroke:#000000; fill:none; stroke-width:0.90000074" points="0, 0 0, 389.7641 283.46479999999997, 389.7641 283.46479999999997, 0" /> 
+</g>
+<!-- Back--> 
+<g transform="translate(305.9648185, 22.5000185) " > 
+<polyline style="stroke:#000000; fill:none; stroke-width:0.90000074" points="0, 0 283.46479999999997, 0 283.46479999999997, 389.7641 0, 389.7641" /> 
+</g>
+<!-- Left--> 
+<g transform="translate(571.7130685, 40.2165685) " > 
+<polyline style="stroke:#000000; fill:none; stroke-width:0.90000074" points="17.716549999999998, 17.716549999999998 88.58275, 17.716549999999998 88.58275, 372.04755 17.716549999999998, 372.04755" /> 
+</g>
+<!-- Right--> 
+<g transform="translate(571.7130685, 394.54756849999995) " > 
+<polyline style="stroke:#000000; fill:none; stroke-width:0.90000074" points="88.58275, 17.716549999999998 88.58275, 372.04755 17.716549999999998, 372.04755 17.716549999999998, 88.58275" /> 
+</g>
+<!-- Top--> 
+<g transform="translate(22.5000185, 394.54756849999995) " > 
+<polyline style="stroke:#000000; fill:none; stroke-width:0.90000074" points="0, 17.716549999999998 0, 88.58275 283.46479999999997, 88.58275 283.46479999999997, 17.716549999999998" /> 
+</g>
+<!-- Bottom--> 
+<g transform="translate(305.9648185, 394.54756849999995) " > 
+<polyline style="stroke:#000000; fill:none; stroke-width:0.90000074" points="0, 88.58275 283.46479999999997, 88.58275 283.46479999999997, 17.716549999999998" /> 
+</g></svg>

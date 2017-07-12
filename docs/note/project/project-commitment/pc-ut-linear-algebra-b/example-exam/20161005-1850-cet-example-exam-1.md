@@ -1,5 +1,0 @@
-* Linear Algebra B course example examination with the solution.
-
-![./20161005-1850-cet-example-exam-1-1.png](./20161005-1850-cet-example-exam-1-1.png)
-
-![./20161005-1850-cet-example-exam-1-2.png](./20161005-1850-cet-example-exam-1-2.png)
