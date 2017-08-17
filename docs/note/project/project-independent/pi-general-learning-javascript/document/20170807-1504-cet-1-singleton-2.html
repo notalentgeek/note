@@ -1,0 +1,27 @@
+<!doctype>
+<html>
+<head>
+  <script>
+    var manager = (function () {
+      var instance;
+
+      function manager () {
+        this.name = "`manager`";
+        this.loop = function () { console.log("`manager` loop"); }
+      }
+
+      function createInstance () { return new manager(); }
+
+      return {
+        getInstance: function () {
+          if (!instance) instance = createInstance();
+          return instance;
+        }
+      }
+    })();
+
+    console.log(manager.getInstance().name);
+    manager.getInstance().loop();
+  </script>
+</head>
+</html>

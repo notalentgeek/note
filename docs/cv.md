@@ -44,7 +44,7 @@
 
 ---
 
-### 2014 - 2016 [Waag Society](http://waag.org/nl) - meSch
+### 2014 - 2016 With [Waag Society](http://waag.org/nl) - meSch
 * Description: A project to make museum simulator and haiku generator based on visitor's visit in museum. A part of bigger meSch project to create better interaction in museums across Europe.
 * Responsibilities:
     * Hardware developer with Arduino (audio player and RFID receiver)
@@ -76,7 +76,7 @@
 
 ---
 
-### 2013 - 2015 [Light Challenge](http://www.lightchallenge.eu/) 2013 - DeModusol Detachable Lightning Solution
+### 2013 - 2015 In [Light Challenge](http://www.lightchallenge.eu/) 2013 with Municipality of Almelo - DeModusol Detachable Lightning Solution
 * Description: Six months street lighting design competition for student from the entire The Netherlands. Each team assigned with local municipality and working together with established companies to make a good and usable street lightning.
 * Responsibilities:
     * Hardware developer for case and electronics
@@ -96,7 +96,7 @@
 
 ---
 
-### 2013 [De Spullenmannen](http://www.spullenmannen.nl/) - DeMeter Gardening Stake
+### 2013 With [De Spullenmannen](http://www.spullenmannen.nl/) - DeMeter Gardening Stake
 * Description: A project to make a garden monitoring tool that connect to an online database.
 * Responsibility: Hardware developer with custom-made Arduino
 
@@ -179,7 +179,7 @@
 
 ---
 
-### 2012 [GOGBOT](http://gogbot.nl/) - R.A.T Art Installation
+### 2012 In [GOGBOT](http://gogbot.nl/) - R.A.T Art Installation
 * Description: Originally from university project. Robot in a Tube (R.A.T) displayed the extend of "human" after several man-made organ transplants.
 * Responsibility: Hardware developer with Arduino
 
