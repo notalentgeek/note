@@ -1,0 +1,45 @@
+<!doctype>
+<html>
+<head>
+  <script>
+    var anyton = (function () {
+      // For this example I try to create pentaton.
+      var ins = [];
+      var initCount = 5;
+
+      function anyton () {
+        this.helloWorld = function () {
+          console.log("hello world");
+        };
+      }
+
+      // Creating "kinda" static function.
+      function createIns () {
+        var a = new anyton();
+        return a;
+      }
+
+      return {
+        getIns: function () {
+          for (var i = 0; i < initCount; i ++) {
+            if (!ins[i]) ins[i] = createIns();
+          }
+
+          return ins[initCount - 1];
+        }
+      }
+
+    })();
+
+    var ins1 = anyton.getIns();
+    var ins2 = anyton.getIns();
+    var ins3 = anyton.getIns();
+    var ins4 = anyton.getIns();
+    var ins5 = anyton.getIns();
+    var ins6 = anyton.getIns(); // This should be the same with `ins5`.
+
+    console.log(ins5 !== ins4); // This should return `false`.
+    console.log(ins5 === ins6); // This should return `true`.
+  </script>
+</head>
+</html>
