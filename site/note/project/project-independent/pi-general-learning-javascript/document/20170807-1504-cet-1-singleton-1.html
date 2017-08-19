@@ -1,0 +1,30 @@
+<!doctype>
+<html>
+<head>
+  <script>
+    var singleton = (function () {
+      var ins;
+
+      console.log("singleton is instantiated");
+
+      function createIns () {
+        var obj = new Object("singleton object created");
+
+        return obj;
+      }
+
+      return {
+        getIns: function () {
+          if (!ins) instance = createIns();
+          return ins;
+        }
+      };
+    })();
+
+    var ins1 = singleton.getIns();
+    var ins2 = singleton.getIns();
+
+    console.log(ins1 === ins2);
+  </script>
+</head>
+</html>

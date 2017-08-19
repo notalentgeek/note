@@ -1,0 +1,43 @@
+<!doctype>
+<html>
+<head>
+  <script>
+    var parent = function (_childst) {
+      this.helloWorld = "child number " + _childst;
+    }
+    parent.prototype.constructor = parent;
+
+    var child = (function () {
+      var ins = [];
+      var initCount = 3;
+
+      childClass = function (_childst) {
+        parent.call(_childst);
+      }
+      childClass.prototype.constructor = childClass;
+
+      function createIns (_childst) {
+        var cc = new childClass(_childst);
+        return cc;
+      }
+
+      return {
+        getIns: function () {
+          for (var i = 0; i < initCount; i ++) {
+            if (!ins[i]) return ins[i] = createIns(i);
+          }
+          return ins[initCount - 1];
+        }
+      }
+    })();
+
+    var cc1 = child.getIns();
+    var cc2 = child.getIns();
+    var cc3 = child.getIns(); // This should be the same with `cc4`.
+    var cc4 = child.getIns();
+
+    console.log(cc3 === cc2); // Return `false`.
+    console.log(cc3 === cc4); // Return `true`.
+  </script>
+</head>
+</html>
